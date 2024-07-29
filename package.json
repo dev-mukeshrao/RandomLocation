@@ -1,0 +1,21 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@googlemaps/js-api-loader": "^1.16.6"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.55.12",
+    "buffer": "^6.0.3"
+  }
+}

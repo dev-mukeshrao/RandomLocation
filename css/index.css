@@ -1,0 +1,66 @@
+Copy code
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between links */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Content area styling to ensure it fills the available space */
+.content {
+    flex: 1;
+    margin-top: 64px; /* Adjust this value based on the height of your navbar */
+    margin-bottom: 64px; /* Adjust this value based on the height of your footer */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Map styling to fill the remaining space */
+#map {
+    flex: 1;
+    height: 90%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}

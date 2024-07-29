@@ -1,0 +1,26 @@
+/// <reference types="@types/google.maps" />
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Random Location Marker</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">Random Location Marker
+        </div>
+    </nav>
+    
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU&callback=Function.prototype&libraries=marker"></script>
+       
+    <footer class="footer">
+        <div class="footer-container">
+            &copy; 2024 NeedleCorp. All rights reserved.
+        </div>
+    </footer>
+    <!-- Ensure this points to the compiled JavaScript, not the TypeScript file -->
+    <script type="module" src="./src/index.ts"></script>
+</body>
+</html>
